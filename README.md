@@ -1,32 +1,35 @@
-# Link-in-Bio Portfolio (Bento Edition)
+# Zaki Adi Nugroho - Portfolio
 
-Sebuah portfolio modern dengan desain **Bento Grid** yang minimalis dan interaktif, dirancang khusus untuk menjadi "Link-in-Bio" yang profesional namun tetap *eye-catching*. Project ini dibangun dengan fokus pada performa tinggi, animasi halus, dan responsivitas mobile.
+Sebuah website portfolio "Link-in-Bio" dengan desain **Bento Grid** yang minimalis dan interaktif. Dirancang khusus untuk memberikan kesan pertama yang profesional, responsif di segala perangkat, dan memiliki performa yang sangat cepat.
 
-## 🚀 Teknologi yang Digunakan
+## 🚀 Teknologi Utama
 
-- **Next.js 15 (App Router)** - Framework React untuk performa dan SEO optimal.
-- **TypeScript** - Untuk pengembangan yang lebih aman dan terstruktur.
-- **Tailwind CSS** - Styling utilitas untuk desain yang modern dan responsif.
-- **Framer Motion** - Library animasi untuk transisi dan efek interaksi yang halus.
-- **Lucide React** - Set ikon yang bersih dan konsisten.
+- **Next.js (App Router)** - Framework React untuk performa tinggi & SEO optimal.
+- **Tailwind CSS** - Styling utilitas untuk desain modern (berpadu dengan efek *Glassmorphism*).
+- **Framer Motion** - Library animasi untuk transisi elemen yang halus.
+- **Lucide React** - Set ikon yang bersih dan estetik.
+- **Vercel Analytics** - Terintegrasi untuk memantau trafik pengunjung (jika di-deploy).
 
-## ✨ Fitur Utama
+## ✨ Fitur Unggulan
 
-- **Bento Grid Layout** - Layout modular yang menyusun informasi dalam blok-blok elegan.
-- **Interactive Tech Stack** - Menampilkan keahlian teknologi dengan efek hover yang menarik.
-- **Glassmorphism Design** - Estetika modern dengan efek transparansi dan blur.
-- **Smooth Animations** - Transisi halaman dan elemen yang mulus menggunakan Framer Motion.
-- **Loading Screen** - Pengalaman pengguna yang premium sejak detik pertama aplikasi dibuka.
-- **Responsive Design** - Dioptimalkan untuk tampilan mobile, tablet, dan desktop.
+- **Bento Grid Layout**: Menyajikan informasi (Pengalaman, *Tech Stack*, Sosial) secara modular dan rapi.
+- **Micro-Interactions**: Animasi *hover* interaktif pada *Tech Stack* dan *Social Icons* (warna asli *brand*).
+- **SEO Ready**: Dilengkapi *Metadata* & *Open Graph* penuh agar link *preview* terlihat profesional saat dibagikan.
+- **Mobile-First**: Tampilan sangat dioptimalkan untuk perangkat *mobile* tanpa mengorbankan tampilan desktop.
 
-## 🛠️ Komponen Utama
+## 💻 Cara Menjalankan Lokal
 
-- `Hero`: Bagian perkenalan utama.
-- `BentoGrid`: Inti dari layout portfolio.
-- `TechStack`: Visualisasi keahlian teknis.
-- `Experience`: Rekam jejak profesional.
-- `GithubGraph`: Integrasi aktivitas kontribusi GitHub.
-- `Contact`: Akses cepat ke berbagai platform sosial.
+1. Pastikan Anda telah menginstal Node.js.
+2. *Install dependensi* menggunakan npm:
+   ```bash
+   npm install
+   ```
+3. Jalankan *development server*:
+   ```bash
+   npm run dev
+   ```
+4. Buka `http://localhost:3000` di *browser* Anda.
 
----
-Project ini dikembangkan untuk memberikan kesan pertama yang kuat bagi pengunjung profil profesional Anda.
+## 🌐 Deployment
+
+Project ini dirancang *production-ready* dan paling optimal jika di-*deploy* langsung menggunakan [Vercel](https://vercel.com/).

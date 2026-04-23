@@ -8,8 +8,30 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Zaki Adi Nugroho | Web Developer",
-  description: "Web Developer Portfolio",
+  title: "Zaki Adi Nugroho | Tech Explorer",
+  description: "Portfolio of Zaki Adi Nugroho, berfokus pada Platform Web, AI & Data, dan Sistem Backend.",
+  keywords: ["Zaki Adi Nugroho", "Portfolio", "Web Developer", "Backend Developer", "AI Enthusiast", "Tech Explorer", "Software Engineer"],
+  openGraph: {
+    title: "Zaki Adi Nugroho | Tech Explorer",
+    description: "Portfolio of Zaki Adi Nugroho, berfokus pada Platform Web, AI & Data, dan Sistem Backend.",
+    siteName: "Zaki Adi Nugroho Portfolio",
+    images: [
+      {
+        url: "/iii.jpeg",
+        width: 800,
+        height: 800,
+        alt: "Zaki Adi Nugroho Profile",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zaki Adi Nugroho | Tech Explorer",
+    description: "Portfolio of Zaki Adi Nugroho, berfokus pada Platform Web, AI & Data, dan Sistem Backend.",
+    images: ["/iii.jpeg"],
+  },
 };
 
 export const viewport: Viewport = {
@@ -21,6 +43,7 @@ export const viewport: Viewport = {
 };
 
 import LoadingScreen from "@/components/LoadingScreen";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
   children,
@@ -50,6 +73,7 @@ export default function RootLayout({
         <LoadingScreen />
         <CustomCursor />
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -99,7 +99,7 @@ export default function Projects() {
                 </div>
               </div>
               <h4 className="text-zinc-200 font-medium tracking-wide text-sm group-hover:text-red-400 transition-colors">
-                Dota 2 Win Prediction
+                Dota 2 Win IQR
               </h4>
             </div>
           </div>

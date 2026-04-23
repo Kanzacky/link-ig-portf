@@ -42,7 +42,7 @@ export default function Hero() {
         >
           {/* Pre-title / Eyebrow */}
           <p className="text-[10px] sm:text-xs text-zinc-400 mb-1.5 tracking-[0.3em] uppercase font-medium">
-            Web Developer
+            Tech Explorer
           </p>
 
           {/* Name & Badge */}
@@ -101,7 +101,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
-              className="p-3 bg-zinc-900 border border-white/5 rounded-full text-zinc-400 hover:text-zinc-50 hover:bg-zinc-800 hover:border-white/10 active:scale-95 transition-all shadow-lg"
+              className="p-3 bg-zinc-900 border border-white/5 rounded-full text-zinc-400 hover:text-white hover:bg-zinc-800 hover:border-white/20 active:scale-95 transition-all shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +123,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="p-3 bg-zinc-900 border border-white/5 rounded-full text-zinc-400 hover:text-zinc-50 hover:bg-zinc-800 hover:border-white/10 active:scale-95 transition-all shadow-lg"
+              className="p-3 bg-zinc-900 border border-white/5 rounded-full text-zinc-400 hover:text-[#E1306C] hover:bg-zinc-800 hover:border-[#E1306C]/30 active:scale-95 transition-all shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="p-3 bg-zinc-900 border border-white/5 rounded-full text-zinc-400 hover:text-zinc-50 hover:bg-zinc-800 hover:border-white/10 active:scale-95 transition-all shadow-lg"
+              className="p-3 bg-zinc-900 border border-white/5 rounded-full text-zinc-400 hover:text-[#0A66C2] hover:bg-zinc-800 hover:border-[#0A66C2]/30 active:scale-95 transition-all shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

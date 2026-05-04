@@ -8,11 +8,11 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Zaki Adi Nugroho | Tech Explorer",
+  title: "Zaki Adi Nugroho",
   description: "Portfolio of Zaki Adi Nugroho, berfokus pada Platform Web, AI & Data, dan Sistem Backend.",
-  keywords: ["Zaki Adi Nugroho", "Portfolio", "Web Developer", "Backend Developer", "AI Enthusiast", "Tech Explorer", "Software Engineer"],
+  keywords: ["Zaki Adi Nugroho", "Portfolio", "Web Developer", "Backend Developer", "AI Enthusiast", "Software Engineer"],
   openGraph: {
-    title: "Zaki Adi Nugroho | Tech Explorer",
+    title: "Zaki Adi Nugroho",
     description: "Portfolio of Zaki Adi Nugroho, berfokus pada Platform Web, AI & Data, dan Sistem Backend.",
     siteName: "Zaki Adi Nugroho Portfolio",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zaki Adi Nugroho | Tech Explorer",
+    title: "Zaki Adi Nugroho",
     description: "Portfolio of Zaki Adi Nugroho, berfokus pada Platform Web, AI & Data, dan Sistem Backend.",
     images: ["/iii.jpeg"],
   },

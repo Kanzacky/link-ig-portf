@@ -38,7 +38,7 @@ export default function Contact() {
         {/* WhatsApp Button */}
         <motion.a
           variants={itemVariants}
-          href="https://wa.me/08819310482"
+          href="https://wa.me/628819310482"
           target="_blank"
           rel="noopener noreferrer"
           className="group w-full flex items-center justify-center gap-3 p-5 rounded-3xl bg-zinc-900/30 border border-zinc-800/50 backdrop-blur-md hover:bg-zinc-800/60 hover:border-zinc-700/60 transition-all duration-300 mb-3"

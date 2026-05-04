@@ -40,10 +40,7 @@ export default function Hero() {
           variants={itemVariants}
           className="flex flex-col items-center justify-center w-full"
         >
-          {/* Pre-title / Eyebrow */}
-          <p className="text-[10px] sm:text-xs text-zinc-400 mb-1.5 tracking-[0.3em] uppercase font-medium">
-            Tech Explorer
-          </p>
+
 
           {/* Name & Badge */}
           <div className="flex items-center justify-center gap-1.5 mx-auto">
@@ -119,7 +116,7 @@ export default function Hero() {
               </svg>
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/zackyadienugroho/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"

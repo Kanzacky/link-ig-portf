@@ -6,26 +6,27 @@ import { containerVariants, itemVariants } from "./variants";
 
 const focuses = [
   {
-    title: "Platform Web",
+    title: "Full-Stack Web Development",
     description:
-      "Membangun pengalaman digital yang bersih, responsif, dan praktis.",
+      "Mengembangkan aplikasi web end-to-end dengan Laravel, React, Inertia.js, dan Next.js — dari arsitektur database hingga antarmuka pengguna.",
     icon: MonitorSmartphone,
     color: "text-sky-400",
     bgGlow: "bg-sky-400/20",
     borderColor: "group-hover:border-sky-500/30",
   },
   {
-    title: "AI & Data",
+    title: "Machine Learning & Data Science",
     description:
-      "Mengeksplorasi machine learning, model prediksi, dan analitik data.",
+      "Membangun pipeline ML untuk pemodelan prediktif, clustering, dan analisis data menggunakan Python, Scikit-learn, dan Jupyter Notebook.",
     icon: BrainCircuit,
     color: "text-violet-400",
     bgGlow: "bg-violet-400/20",
     borderColor: "group-hover:border-violet-500/30",
   },
   {
-    title: "Sistem Backend",
-    description: "Fokus pada API yang aman, logika, dan arsitektur yang terukur.",
+    title: "Backend Engineering",
+    description:
+      "Merancang RESTful API, sistem autentikasi, dan logika bisnis yang scalable dengan fokus pada keamanan dan performa.",
     icon: ServerCog,
     color: "text-emerald-400",
     bgGlow: "bg-emerald-400/20",

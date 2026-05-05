@@ -35,7 +35,7 @@ export default function About() {
           >
             Berawal dari{" "}
             <span className="text-zinc-200">Teknik Kendaraan Ringan</span>, kini
-            bertransformasi menjadi Mahasiswa{" "}
+            bertransformasi ke{" "}
             <span className="text-zinc-50 font-semibold drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]">
               Teknik Informatika
             </span>

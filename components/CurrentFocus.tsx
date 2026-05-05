@@ -24,7 +24,7 @@ const focuses = [
     borderColor: "group-hover:border-violet-500/30",
   },
   {
-    title: "Backend Engineering",
+    title: "Backend Development",
     description:
       "Merancang RESTful API, sistem autentikasi, dan logika bisnis yang scalable dengan fokus pada keamanan dan performa.",
     icon: ServerCog,
